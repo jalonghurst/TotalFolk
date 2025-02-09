@@ -94,7 +94,7 @@
    * and set projectFolderMaxDepth to a large number.
    */
   // "projectFolderMinDepth": 2,
-  // "projectFolderMaxDepth": 2,
+  "projectFolderMaxDepth": 3,
 
   /**
    * Today the npmjs.com registry enforces fairly strict naming rules for packages, but in the early
@@ -324,6 +324,11 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "total-folk-frontend",
+      "projectFolder": "packages/total-folk/frontend",
+      "tags": [ "frontend" ]
+    }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)

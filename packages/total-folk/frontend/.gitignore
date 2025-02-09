@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 common/temp
+common/temp/pnpm-store
 common/autoinstallers
 
 node_modules
