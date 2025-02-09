@@ -328,6 +328,11 @@
       "packageName": "total-folk-frontend",
       "projectFolder": "packages/total-folk/frontend",
       "tags": [ "frontend" ]
+    },
+    {
+      "packageName": "total-folk-backend",
+      "projectFolder": "packages/total-folk/backend",
+      "tags": [ "backend" ]
     }
     // {
     //   /**

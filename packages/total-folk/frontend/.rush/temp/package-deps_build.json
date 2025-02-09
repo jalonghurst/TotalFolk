@@ -1,0 +1,27 @@
+{
+  "files": {
+    "packages/total-folk/frontend/.gitignore": "14eee48203be5d0703fd75a9c6455dd9ee2182a6",
+    "packages/total-folk/frontend/.rush/temp/chunked-rush-logs/total-folk-frontend.build.chunks.jsonl": "8c41cbe5f54232dbdf09249c605d40737aeaca6a",
+    "packages/total-folk/frontend/.rush/temp/package-deps_build.json": "af0175c154832c779807775619e45743b89bf31c",
+    "packages/total-folk/frontend/.rush/temp/shrinkwrap-deps.json": "2d57899d624afdabcc12e8c48646d80144c63c62",
+    "packages/total-folk/frontend/README.md": "74872fd4af60fb8d6cdb7d27e6c587ee0b6e1df7",
+    "packages/total-folk/frontend/eslint.config.js": "092408a9f09eae19150818b4f0db5d1b70744828",
+    "packages/total-folk/frontend/index.html": "e4b78eae12304a075fa19675c4047061d6ab920d",
+    "packages/total-folk/frontend/package-lock.json": "3bedee9a10891df354d9ca432563247c5d0fc63f",
+    "packages/total-folk/frontend/package.json": "caf717f003610daa59f7dfca78dae43ffd36a656",
+    "packages/total-folk/frontend/postcss.config.cjs": "d7758d67736d6ef3f5a5f6da47fc7b54aba71daf",
+    "packages/total-folk/frontend/public/vite.svg": "e7b8dfb1b2a60bd50538bec9f876511b9cac21e3",
+    "packages/total-folk/frontend/src/App.css": "b9d355df2a5956b526c004531b7b0ffe412461e0",
+    "packages/total-folk/frontend/src/App.tsx": "3d7ded3ff62424046af18e2b5b8b8324c7e0001d",
+    "packages/total-folk/frontend/src/assets/react.svg": "6c87de9bb3358469122cc991d5cf578927246184",
+    "packages/total-folk/frontend/src/index.css": "e7d4bb2febf4d3130235502885644f8dddc5f763",
+    "packages/total-folk/frontend/src/main.tsx": "bef5202a32cbd0632c43de40f6e908532903fd42",
+    "packages/total-folk/frontend/src/vite-env.d.ts": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+    "packages/total-folk/frontend/tailwind.config.js": "fe393410e406884c64c3e1e17a4d17c5bc9e9801",
+    "packages/total-folk/frontend/tsconfig.app.json": "358ca9ba93f089b0133f05933f133a446402eb17",
+    "packages/total-folk/frontend/tsconfig.json": "1ffef600d959ec9e396d5a260bd3f5b927b2cef8",
+    "packages/total-folk/frontend/tsconfig.node.json": "db0becc8b033a4a78144f4a3bb852082fe91cd62",
+    "packages/total-folk/frontend/vite.config.ts": "8b0f57b91aeb45c54467e29f983a0893dc83c4d9"
+  },
+  "arguments": "tsc -b && vite build "
+}
