@@ -1,0 +1,12 @@
+{
+  "name": "total-folk-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "rush build",
+    "start": "rush start",
+    "test": "rush test"
+  },
+  "devDependencies": {
+    "@microsoft/rush": "^5.148.0"
+  }
+}
