@@ -1,8 +1,8 @@
 {
   "files": {
     "packages/total-folk/frontend/.gitignore": "14eee48203be5d0703fd75a9c6455dd9ee2182a6",
-    "packages/total-folk/frontend/.rush/temp/chunked-rush-logs/total-folk-frontend.build.chunks.jsonl": "8c41cbe5f54232dbdf09249c605d40737aeaca6a",
-    "packages/total-folk/frontend/.rush/temp/package-deps_build.json": "af0175c154832c779807775619e45743b89bf31c",
+    "packages/total-folk/frontend/.rush/temp/chunked-rush-logs/total-folk-frontend.build.chunks.jsonl": "7830a86768b9df3545ebe96f02de26b02e3c60ae",
+    "packages/total-folk/frontend/.rush/temp/package-deps_build.json": "e749aa0d29b2efef5bc1a3fa86beda0fe35335a3",
     "packages/total-folk/frontend/.rush/temp/shrinkwrap-deps.json": "2d57899d624afdabcc12e8c48646d80144c63c62",
     "packages/total-folk/frontend/README.md": "74872fd4af60fb8d6cdb7d27e6c587ee0b6e1df7",
     "packages/total-folk/frontend/eslint.config.js": "092408a9f09eae19150818b4f0db5d1b70744828",

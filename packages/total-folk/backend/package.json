@@ -4,6 +4,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    // Update when adding typescript
+    "build": "echo 'No build necessary for backend'", 
     "dev": "nodemon server.js",
     "lint": "eslint . --ext .js"
   },

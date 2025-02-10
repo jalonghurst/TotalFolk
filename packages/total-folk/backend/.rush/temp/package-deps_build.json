@@ -1,0 +1,12 @@
+{
+  "files": {
+    "packages/total-folk/backend/.rush/temp/shrinkwrap-deps.json": "38a65ef7ce1c3d69a9eabf3735f19b23292a10bd",
+    "packages/total-folk/backend/config/.eslintignore": "fd743155172086515ec24e6a416ceb9b12996e36",
+    "packages/total-folk/backend/config/.eslintrc.js": "633e25bea6d6aff6b5cb950f27169f9a3e4b1144",
+    "packages/total-folk/backend/package-lock.json": "c4c4b02c5b88840cd755e9acd5cff8fd703633e3",
+    "packages/total-folk/backend/package.json": "627085e888b19b15600e55bdc51076355862a4fa",
+    "packages/total-folk/backend/routes/routes.js": "76de43913a3c6c9e42b947acef002472fc4e8dc3",
+    "packages/total-folk/backend/server.js": "cc8d9c05af101dbab9f5ae671aa0204e27aa78a0"
+  },
+  "arguments": "echo 'No build necessary for backend' "
+}

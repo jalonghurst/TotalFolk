@@ -8,4 +8,4 @@
 {"kind":"O","text":"\u001b[2mdist/\u001b[22m\u001b[32massets/react-CHdo91hT.svg  \u001b[39m\u001b[1m\u001b[2m  4.13 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip:  2.05 kB\u001b[22m\n"}
 {"kind":"O","text":"\u001b[2mdist/\u001b[22m\u001b[35massets/index-DxMYSFKA.css  \u001b[39m\u001b[1m\u001b[2m  1.45 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip:  0.74 kB\u001b[22m\n"}
 {"kind":"O","text":"\u001b[2mdist/\u001b[22m\u001b[36massets/index-DJRe9o8e.js   \u001b[39m\u001b[1m\u001b[2m186.49 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip: 58.97 kB\u001b[22m\n"}
-{"kind":"O","text":"\u001b[32m✓ built in 2.12s\u001b[39m\n"}
+{"kind":"O","text":"\u001b[32m✓ built in 1.86s\u001b[39m\n"}
