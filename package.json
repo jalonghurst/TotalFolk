@@ -7,6 +7,7 @@
     "test": "rush test"
   },
   "devDependencies": {
-    "@microsoft/rush": "^5.148.0"
+    "@microsoft/rush": "^5.148.0",
+    "prettier": "^3.5.0"
   }
 }

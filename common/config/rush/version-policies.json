@@ -8,7 +8,7 @@
  * strategy that affects "rush change", "rush version", and "rush publish".  The strategy applies
  * to a set of projects that are specified using the "versionPolicyName" field in rush.json.
  */
- [
+[
   // {
   //   /**
   //    * (Required) Indicates the kind of version policy being defined ("lockStepVersion" or "individualVersion").
