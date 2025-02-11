@@ -4,10 +4,16 @@
   "scripts": {
     "build": "rush build",
     "start": "rush start",
-    "test": "rush test"
+    "test": "rush test",
+    "format-staged": "rush format-staged",
+    "format": "rush format"
   },
   "devDependencies": {
     "@microsoft/rush": "^5.148.0",
+    "pre-commit": "^1.2.2",
     "prettier": "^3.5.0"
-  }
+  },
+  "pre-commit": [
+    "format-staged"
+  ]
 }

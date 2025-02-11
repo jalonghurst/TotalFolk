@@ -192,7 +192,6 @@
       "summary": "This rush command formats all files in the project according to the specifications in the Prettier configuration file, for all files in the current directory and its subdirectories.",
       "safeForSimultaneousRushProcesses": true,
       "autoinstallerName": "rush-prettier",
-      // This will invoke common/autoinstallers/rush-prettier/node_modules/.bin/pretty-quick
       "shellCommand": "prettier --write ."
     }
   ],
