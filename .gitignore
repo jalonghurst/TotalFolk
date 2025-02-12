@@ -12,6 +12,13 @@ common/temp
 common/temp/pnpm-store
 common/autoinstallers
 
+# Rush temporary files
+.rush/temp/
+.rush/temp/chunked-rush-logs/
+packages/*/.rush/temp/
+packages/*/*/.rush/temp/
+packages/*/*/.rush/temp/chunked-rush-logs/
+
 # Node modules
 node_modules
 
