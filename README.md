@@ -1,35 +1,37 @@
-# Total Folk Monorepo 
+# Total Folk Monorepo
+
 Vite | React | JavaScript | TypeScript | Node.js
 
 This repository contains the code for the Total Folk project, organized as a monorepo using Rush. The monorepo structure allows us to manage multiple packages and projects within a single repository efficiently, and is built with scalability in mind.
- 
 
 ## Proposed Project Structure
 
 The monorepo is organized into the following directories:
+
 ```
-total-folk-monorepo/ 
-├── common/ 
-│ ├── autoinstallers/ 
-│ │ └── rush-prettier/ 
-│ ├── config/ 
-│ │ └── rush/ 
-│ │ └── command-line.json 
+total-folk-monorepo/
+├── common/
+│ ├── autoinstallers/
+│ │ └── rush-prettier/
+│ ├── config/
+│ │ └── rush/
+│ │ └── command-line.json
 ├── components/ (Generic components shared across all packages)
-├── packages/ 
+├── packages/
 │ ├── component-library/playground/ (Where we can display and interact with all components using mock data)
 | │── total-folk/
-| | └── total-folk-backend/ 
-| │   ├── src/ 
-| │   └──  package.json 
-| │ └── total-folk-frontend/ 
-| │   ├── src/ 
-| │   └──  package.json 
-├── .gitignore 
-├── package.json 
-├── rush.json 
+| | └── total-folk-backend/
+| │   ├── src/
+| │   └──  package.json
+| │ └── total-folk-frontend/
+| │   ├── src/
+| │   └──  package.json
+├── .gitignore
+├── package.json
+├── rush.json
 └── README.md
 ```
+
 ## Getting Started
 
 To get started with the project, follow these steps:
@@ -42,29 +44,34 @@ To get started with the project, follow these steps:
    ```
 
 2. Install dependencies:
+
 ```
 rush update
 ```
 
 4. Build the project:
+
 ```
 rush build
 ```
 
 ### Pre-commit Hooks
-The project uses the pre-commit dependency to run formatting commands before commits. 
-- The format-staged script is configured to run automatically before a commit is made, ensuring that the staged files are formatted using Prettier.
 
+The project uses the pre-commit dependency to run formatting commands before commits.
+
+- The format-staged script is configured to run automatically before a commit is made, ensuring that the staged files are formatted using Prettier.
 
 ## Contributing
 
 We welcome contributions to the Total Folk Monorepo! To contribute, please follow these steps:
 
 1. **Fork the Repository**:
+
    - Go to the GitHub page of the `total-folk-monorepo` repository.
    - Click the "Fork" button at the top right of the page. This will create a copy of the repository under your own GitHub account.
 
 2. **Clone the Forked Repository**:
+
    - Clone the forked repository to your local machine:
 
      ```sh
@@ -73,6 +80,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
      ```
 
 3. **Set Up the Upstream Remote**:
+
    - Add the original repository as an upstream remote to keep your fork up to date with the latest changes:
 
      ```sh
@@ -80,6 +88,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
      ```
 
 4. **Create a New Branch**:
+
    - Create a new branch for your feature or bugfix:
 
      ```sh
@@ -87,9 +96,11 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
      ```
 
 5. **Make Changes**:
+
    - Make your changes to the codebase.
 
 6. **Run Rush Commands**:
+
    - Install dependencies:
 
      ```sh
@@ -109,6 +120,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
      ```
 
 7. **Commit Your Changes**:
+
    - Stage your changes:
 
      ```sh
@@ -122,6 +134,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
      ```
 
 8. **Push Your Changes**:
+
    - Push your changes to your forked repository:
 
      ```sh
@@ -129,6 +142,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
      ```
 
 9. **Create a Pull Request**:
+
    - Go to the GitHub page of your forked repository.
    - Click the "Compare & pull request" button.
    - Ensure the base repository is the original repository and the base branch is `main`.
@@ -136,6 +150,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
    - Submit the pull request.
 
 10. **Keep Your Fork Up to Date**:
+
     - Periodically fetch updates from the upstream repository and merge them into your fork:
 
       ```sh
