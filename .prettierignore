@@ -17,6 +17,10 @@ node_modules
 
 # Build output
 dist
+build/
+coverage/
+*.min.js
+*.bundle.js
 dist-ssr
 *.local
 
