@@ -1,9 +1,9 @@
 // Entry point for the backend server
 const express = require('express');
-const { createServer } = require('http');
+import { createServer } from 'http';
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const routes = require('./routes/routes');
+import routes from './routes';
 
 const app = express();
 

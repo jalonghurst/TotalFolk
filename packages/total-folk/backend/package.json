@@ -1,11 +1,11 @@
 {
   "name": "total-folk-backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo 'No build necessary for backend'",
-    "dev": "nodemon server.js",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts",
     "lint": "eslint . --ext .js"
   },
   "keywords": [],
@@ -18,8 +18,10 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^18.14.0",
     "eslint": "^9.20.0",
     "nodemon": "^3.1.9",
-    "pre-commit": "~1.2.2"
+    "ts-node": "^10.9.1"
   }
 }
