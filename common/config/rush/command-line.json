@@ -193,6 +193,13 @@
       "safeForSimultaneousRushProcesses": true,
       "autoinstallerName": "rush-prettier",
       "shellCommand": "prettier --write ."
+    },
+    {
+      "name": "lint",
+      "commandKind": "global",
+      "summary": "This rush command runs ESLint on all packages.",
+      "safeForSimultaneousRushProcesses": true,
+      "shellCommand": "eslint ."
     }
   ],
   /**
