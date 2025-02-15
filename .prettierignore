@@ -8,7 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Rush
+common
 common/temp
+common/scripts
 common/temp/pnpm-store
 common/autoinstallers
 
