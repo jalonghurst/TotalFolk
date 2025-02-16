@@ -1,15 +1,14 @@
-# Total Folk Monorepo
-
+# Rush Monorepo
 Vite | React | JavaScript | TypeScript | Node.js
 
-This repository contains the code for the Total Folk project, organized as a monorepo using Rush. The monorepo structure allows us to manage multiple packages and projects within a single repository efficiently, and is built with scalability in mind.
+This repository contains the starting code for a monorepo using Rush. The monorepo structure allows us to manage multiple packages and projects within a single repository efficiently.
 
 ## Proposed Project Structure
 
 The monorepo is organized into the following directories:
 
 ```
-total-folk-monorepo/
+monorepo/
 ├── common/
 │ ├── autoinstallers/
 │ │ └── rush-prettier/
@@ -20,10 +19,10 @@ total-folk-monorepo/
 ├── packages/
 │ ├── component-library/playground/ (Where we can display and interact with all components using mock data)
 | │── total-folk/
-| | └── total-folk-backend/
+| | └── backend/
 | │   ├── src/
 | │   └──  package.json
-| │ └── total-folk-frontend/
+| │ └── frontend/
 | │   ├── src/
 | │   └──  package.json
 ├── .gitignore
