@@ -1,4 +1,5 @@
 # Rush Monorepo
+
 Vite | React | JavaScript | TypeScript | Node.js
 
 This repository contains the starting code for a monorepo using Rush. The monorepo structure allows us to manage multiple packages and projects within a single repository efficiently.
@@ -39,7 +40,7 @@ To get started with the project, follow these steps:
 
    ```sh
    git clone https://github.com/your-username/rush-monorepo.git
-   cd total-folk-monorepo
+   cd rush-monorepo
    ```
 
 2. Install dependencies:
@@ -75,7 +76,7 @@ We welcome contributions to the Rush Monorepo! To contribute, please follow thes
 
      ```sh
      git clone https://github.com/your-username/rush-monorepo.git
-     cd total-folk-monorepo
+     cd rush-monorepo
      ```
 
 3. **Set Up the Upstream Remote**:

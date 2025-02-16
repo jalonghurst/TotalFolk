@@ -319,25 +319,25 @@
    */
   "projects": [
     {
-      "packageName": "total-folk-frontend",
-      "projectFolder": "packages/total-folk/frontend",
+      "packageName": "example-app-frontend",
+      "projectFolder": "packages/example-app/frontend",
       "tags": ["frontend"]
     },
     {
-      "packageName": "total-folk-backend",
-      "projectFolder": "packages/total-folk/backend",
+      "packageName": "example-app-backend",
+      "projectFolder": "packages/example-app/backend",
       "tags": ["backend"]
     }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
     //    */
-    //   "packageName": "total-folk-frontend",
+    //   "packageName": "example-app-frontend",
     //
     //   /**
     //    * The path to the project folder, relative to the rush.json config file.
     //    */
-    //   "projectFolder": "apps/total-folk/frontend",
+    //   "projectFolder": "apps/example-app/frontend",
     //
     //   /**
     //    * This field is only used if "subspacesEnabled" is true in subspaces.json.

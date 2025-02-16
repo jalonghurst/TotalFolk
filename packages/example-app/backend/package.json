@@ -1,5 +1,5 @@
 {
-  "name": "total-folk-backend",
+  "name": "example-app-backend",
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
