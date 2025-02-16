@@ -62,11 +62,11 @@ The project uses the pre-commit dependency to run formatting commands before com
 
 ## Contributing
 
-We welcome contributions to the Total Folk Monorepo! To contribute, please follow these steps:
+We welcome contributions to the Rush Monorepo! To contribute, please follow these steps:
 
 1. **Fork the Repository**:
 
-   - Go to the GitHub page of the `total-folk-monorepo` repository.
+   - Go to the GitHub page of the `rush-monorepo` repository.
    - Click the "Fork" button at the top right of the page. This will create a copy of the repository under your own GitHub account.
 
 2. **Clone the Forked Repository**:
@@ -74,7 +74,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
    - Clone the forked repository to your local machine:
 
      ```sh
-     git clone https://github.com/your-username/total-folk-monorepo.git
+     git clone https://github.com/your-username/rush-monorepo.git
      cd total-folk-monorepo
      ```
 
@@ -83,7 +83,7 @@ We welcome contributions to the Total Folk Monorepo! To contribute, please follo
    - Add the original repository as an upstream remote to keep your fork up to date with the latest changes:
 
      ```sh
-     git remote add upstream https://github.com/original-username/total-folk-monorepo.git
+     git remote add upstream https://github.com/jalonghurst/rush-monorepo.git
      ```
 
 4. **Create a New Branch**:
