@@ -18,7 +18,7 @@ monorepo/
 ├── components/ (Generic components shared across all packages)
 ├── packages/
 │ ├── component-library/playground/ (Where we can display and interact with all components using mock data)
-| │── total-folk/
+| │── example-app/
 | | └── backend/
 | │   ├── src/
 | │   └──  package.json
@@ -38,7 +38,7 @@ To get started with the project, follow these steps:
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/your-username/total-folk-monorepo.git
+   git clone https://github.com/your-username/rush-monorepo.git
    cd total-folk-monorepo
    ```
 
